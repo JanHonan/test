@@ -2,7 +2,15 @@
 public class Student implements Comparable{
 	String number;//±àºÅ
 	String name;//Ãû×Ö
+	String no;//Ñ§ºÅ
 
+	public String getNo() {
+		return no;
+	}
+
+	public void setNo(String no) {
+		this.no = no;
+	}
 
 	public String getName() {
 		return name;
